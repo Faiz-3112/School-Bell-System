@@ -44,7 +44,7 @@ git clone https://github.com/Faiz-3112/School-Bell-System.git
 ```
 - Navigate to the CLI folder:
 ```
-cd SchoolBellSystem/CLI_based_system
+cd SchoolBellSystem/CLI based system
 ```
 - Run the program:
 
