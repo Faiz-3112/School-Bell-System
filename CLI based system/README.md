@@ -11,18 +11,18 @@ This is the CLI-based implementation of the **School Bell System**, a Python app
 
 ## 🛠️ Requirements
 
-To run the CLI-based version, you need the following dependencies:
+**To run the CLI-based version, you need the following dependencies:**
 
 - Python 3.x
 - `pygame` (for playing audio files)
 
 Install the required Python libraries by running:
 
-```bash
+```
 pip install pygame
 ```
 
-# 📂 Project Structure
+## 📂 Project Structure
 ```
 CLI/
 ├── assets/
@@ -31,13 +31,11 @@ CLI/
 │   ├── Old-alarm-clock-sound.mp3     # Optional old bell sound
 ├── School_bell_system_main.py        # Main Python script for the CLI version
 ├── School_bell_system_test.py        # Test script for running unit tests
-├── bell_schedule.json                # Configuration file for bell timings
-├── bell_system.log                   # Log file to track system actions
 └── README.md                         # This documentation file
 ```
-# 🚀 How to Run
+## 🚀 How to Run
 
-## Clone the repository:
+**Clone the repository:**
 
 - First, clone the repository to your local machine:
 
@@ -62,11 +60,11 @@ python School_bell_system_main.py
 
 The system will then run according to the school schedule and ring the appropriate bell sounds at the designated times.
 
-# 💡 Usage Instructions
+## 💡 Usage Instructions
  - Full Day: The system follows a predefined schedule for a full school day (with 5 periods before recess and 4 after).
  - Half Day: The system will only ring bells for 4 periods before the half-day schedule concludes.
  - Bell Sounds: You can modify or replace the sound files used for assembly, period bells, and other alerts in the assets/ folder.
-# 🕒 Schedule Customization
+## 🕒 Schedule Customization
    The schedule for periods, recess, and assembly is defined in bell_schedule.json. You can modify this file to fit your school's timing and requirements. The JSON structure includes:
 
 ```
@@ -93,7 +91,7 @@ The system will then run according to the school schedule and ring the appropria
   ]
 }
 ```
-# 🔊 Audio Files
+## 🔊 Audio Files
 
   - The system uses the following audio files, located in the assets/ folder:
 
@@ -102,8 +100,8 @@ The system will then run according to the school schedule and ring the appropria
       Old-alarm-clock-sound.mp3: (Optional) An alternate sound that can be used for other alerts.
       You can replace these audio files with your own, as long as they are in .mp3 format and the paths in the Python script are updated accordingly.
 
-# 📝 Logging
+## 📝 Logging
 The system logs actions such as bell rings and schedule events to bell_system.log. This can be useful for tracking or debugging the bell system’s behavior over time.
 
-# ⚙️ Customization
+## ⚙️ Customization
 You can modify the schedule, audio files, and other configurations directly in the Python code or the bell_schedule.json file. The system is flexible and can be adapted to fit different school schedules and requirements.
